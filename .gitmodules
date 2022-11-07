@@ -1,0 +1,3 @@
+[submodule "src/sdk"]
+	path = src/sdk
+	url = git@github.com:fumiichan/rmmv-utils-plugin-sdk.git
