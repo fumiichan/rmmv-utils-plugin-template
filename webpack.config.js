@@ -13,10 +13,10 @@ module.exports = {
       }
     ]
   },
+  target: 'electron-renderer',
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
   },
-  target: 'electron-renderer',
   output: {
     filename: 'sample-plugin.plugin.js',
     path: path.resolve(__dirname, './build/'),
